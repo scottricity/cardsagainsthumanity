@@ -1,0 +1,35 @@
+{
+  "name": "cardsagainsthumanity",
+  "version": "1.0.0",
+  "description": "A multiplayer game made in JavaScript.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "startServer": "node server.js",
+    "startWeb": "cd frontend & npm start",
+    "start": "concurrently \"npm run startServer\" \"npm run startWeb\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottricity/cardsagainsthumanity.git"
+  },
+  "author": "Jonathan Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottricity/cardsagainsthumanity/issues"
+  },
+  "homepage": "https://github.com/scottricity/cardsagainsthumanity#readme",
+  "devDependencies": {
+    "concurrently": "^7.5.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "sqlite3": "^5.1.2",
+    "sequelize": "^6.25.5",
+    "fs-extra": "^10.1.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4"
+  }
+}
