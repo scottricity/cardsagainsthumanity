@@ -1,5 +1,5 @@
 {
-  "name": "cardsagainsthumanity",
+  "name": "melodyqcanada",
   "version": "1.0.0",
   "description": "A multiplayer game made in JavaScript.",
   "main": "server.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scottricity/cardsagainsthumanity.git"
+    "url": "git+https://github.com/scottricity/melodyqcanada.git"
   },
   "author": "Jonathan Scott",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scottricity/cardsagainsthumanity/issues"
+    "url": "https://github.com/scottricity/melodyqcanada/issues"
   },
-  "homepage": "https://github.com/scottricity/cardsagainsthumanity#readme",
+  "homepage": "https://github.com/scottricity/melodyqcanada#readme",
   "devDependencies": {
     "concurrently": "^7.5.0"
   },
