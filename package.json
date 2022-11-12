@@ -1,7 +1,7 @@
 {
   "name": "melodyqcanada",
   "version": "1.0.0",
-  "description": "A multiplayer game made in JavaScript.",
+  "description": "A functional site for a small friendly charity.",
   "main": "server.js",
   "type": "module",
   "scripts": {

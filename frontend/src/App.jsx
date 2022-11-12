@@ -1,15 +1,20 @@
 import logo from './logo.svg';
 import * as React from "react"
-import { Box , Typography } from "@mui/material"
+import { Box , Typography , Container } from "@mui/material"
+
+class Links extends React.Component {
+  render() {
+    return (
+      <>
+        <p>Hi</p>
+      </>
+    )
+  }
+}
 
 function App() {
   return (
-    <Box>
-      <Typography>
-        yes
-      </Typography>
-      
-    </Box>
+    <Links></Links>
   );
 }
 
